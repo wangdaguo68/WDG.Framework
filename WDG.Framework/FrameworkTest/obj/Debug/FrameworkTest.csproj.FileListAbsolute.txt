@@ -1,0 +1,12 @@
+D:\开发测试\WDG.Framework\WDG.Framework\FrameworkTest\bin\Debug\FrameworkTest.exe.config
+D:\开发测试\WDG.Framework\WDG.Framework\FrameworkTest\bin\Debug\FrameworkTest.exe
+D:\开发测试\WDG.Framework\WDG.Framework\FrameworkTest\bin\Debug\FrameworkTest.pdb
+D:\开发测试\WDG.Framework\WDG.Framework\FrameworkTest\bin\Debug\EntityFramework.dll
+D:\开发测试\WDG.Framework\WDG.Framework\FrameworkTest\bin\Debug\EntityFramework.SqlServer.dll
+D:\开发测试\WDG.Framework\WDG.Framework\FrameworkTest\bin\Debug\WDG.Framework.DAL.dll
+D:\开发测试\WDG.Framework\WDG.Framework\FrameworkTest\bin\Debug\WDG.Framework.DAL.pdb
+D:\开发测试\WDG.Framework\WDG.Framework\FrameworkTest\bin\Debug\EntityFramework.xml
+D:\开发测试\WDG.Framework\WDG.Framework\FrameworkTest\bin\Debug\EntityFramework.SqlServer.xml
+D:\开发测试\WDG.Framework\WDG.Framework\FrameworkTest\obj\Debug\FrameworkTest.csprojResolveAssemblyReference.cache
+D:\开发测试\WDG.Framework\WDG.Framework\FrameworkTest\obj\Debug\FrameworkTest.exe
+D:\开发测试\WDG.Framework\WDG.Framework\FrameworkTest\obj\Debug\FrameworkTest.pdb
