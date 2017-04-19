@@ -2,6 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations.Schema;
+using System.Configuration;
 using System.Data;
 using System.Data.Entity;
 using System.Data.Entity.Infrastructure;
@@ -16,13 +17,17 @@ using EntityState = System.Data.Entity.EntityState;
 
 namespace WDG.Framework.DAL
 {
-    public class DbContextBase : DbContext, IDisposable
+    public class DbContextBase : DbContext
     {
-        public DbContextBase(string connectionString)
+        public DbContextBase(string connectionString=null)
         {
+            if (string.IsNullOrEmpty(connectionString))
+            {
+                connectionString = ConfigurationManager.ConnectionStrings["Biz"].ToString();
+            }
             base.Database.Connection.ConnectionString = connectionString;
-            base.Configuration.LazyLoadingEnabled = false;
-            base.Configuration.ProxyCreationEnabled = false;
+            //base.Configuration.LazyLoadingEnabled = false;
+            //base.Configuration.ProxyCreationEnabled = false;
         }
 
         public void Delete<T>(T entity) where T : class
